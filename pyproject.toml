@@ -13,6 +13,7 @@ dependencies = [
     "scikit-learn>=1.5.1",
     "python-dotenv>=1.0.1",
     "flipside>=2.0.8",
+    "pandas>=2.2.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

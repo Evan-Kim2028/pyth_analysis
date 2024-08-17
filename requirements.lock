@@ -52,11 +52,14 @@ matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
     # via ipykernel
 numpy==2.0.1
+    # via pandas
     # via pyarrow
     # via scikit-learn
     # via scipy
 packaging==24.1
     # via ipykernel
+pandas==2.2.2
+    # via pyth-analysis
 parso==0.8.4
     # via jedi
 pexpect==4.9.0
@@ -81,10 +84,12 @@ pygments==2.18.0
     # via ipython
 python-dateutil==2.9.0.post0
     # via jupyter-client
+    # via pandas
 python-dotenv==1.0.1
     # via pyth-analysis
 pytz==2024.1
     # via clickhouse-connect
+    # via pandas
 pyzmq==26.1.0
     # via ipykernel
     # via jupyter-client
@@ -113,6 +118,8 @@ traitlets==5.14.3
     # via matplotlib-inline
 typing-extensions==4.12.2
     # via pydantic
+tzdata==2024.1
+    # via pandas
 urllib3==1.26.19
     # via clickhouse-connect
     # via requests
